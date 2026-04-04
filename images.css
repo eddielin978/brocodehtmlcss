@@ -1,0 +1,16 @@
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
