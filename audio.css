@@ -1,0 +1,38 @@
+span {
+  display: flex;
+  white-space: nowrap;
+}
+.songs {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 3vw;
+}
+.songs1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.songs2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.song {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  transition: background-color 0.25s ease;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  width: 500px;
+}
+audio {
+  width: 100%;
+}
+.song:hover {
+  background-color: gray;
+}
