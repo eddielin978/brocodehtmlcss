@@ -1,0 +1,21 @@
+html {
+  background-color: rgb(255, 247, 159);
+}
+hr {
+  margin-top: 20px;
+  height: 2px;
+  background-color: black;
+}
+table {
+  background-color: black;
+  min-height: 80px;
+}
+th {
+  width: 150px;
+  min-width: 90px;
+  background-color: lightblue;
+}
+td {
+  background-color: white;
+  text-align: center;
+}
