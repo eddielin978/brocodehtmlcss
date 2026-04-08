@@ -1,0 +1,53 @@
+html {
+  background-color: azure;
+}
+hr {
+  width: 5px;
+  position: relative;
+  z-index: 10;
+}
+span {
+  font-size: 24px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.text > * {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration-line: underline;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+.big {
+  font-size: 1.75rem;
+}
+.small {
+  font-size: 1.25rem;
+}
+.subscript {
+  vertical-align: sub;
+  font-size: 1.25rem;
+}
+.super {
+  vertical-align: super;
+  font-size: 1.25rem;
+}
+.mono {
+  font-family: monospace;
+}
+.highlight {
+  background-color: yellow;
+}
