@@ -1,0 +1,12 @@
+html {
+  background-color: white;
+  opacity: 100;
+}
+hr {
+  height: 2px;
+  background-color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}

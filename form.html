@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <h1>The Form</h1>
+    <a href="index.html">Home</a>
+    <hr />
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Abc" />
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="example@example.com" />
+      <label for="telephone">Phone number:</label>
+      <input
+        type="tel"
+        id="telephone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        placeholder="123-456-7890"
+      />
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" />
+      <label for="favColor">Favorite Color:</label>
+      <input type="color" id="favColor" value="#FFFFFF" />
+      <label for="happiness">Happiness:</label>
+      <input type="range" id="happiness" value="0" />
+      <label for="website">Website:</label>
+      <input type="url" id="website" />
+      <label for="file">Choose a file:</label>
+      <input type="file" />
+      <label for="searchbar">Search Bar:</label>
+      <input type="search" />
+      <label for="comment">Comment:</label>
+      <textarea name="comment" id="comment" rows="4" cols="20"></textarea>
+      <label for="quantity">How are you feeling (1-10):</label>
+      <input type="number" min="1" max="10" />
+      <label for="before">Have you filled this in before?</label>
+      <label for="before">Yes</label>
+      <input type="radio" name="before" />
+      <label for="before">No</label>
+      <input type="radio" name="before" />
+      <label for="subscribe">Subscribe:</label>
+      <input type="checkbox" />
+      <label for="like">Did you like this form?</label>
+      <select name="like" id="like">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <input type="reset" />
+      <input type="submit" id="submit" />
+      <span id="isSubmitted">Form not submitted</span>
+      <script src="form.js"></script>
+    </form>
+  </body>
+</html>
