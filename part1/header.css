@@ -1,0 +1,45 @@
+#homeButton {
+  text-decoration: none;
+  background-color: lightgray;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  margin-left: 5px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: orange;
+  padding: 5px;
+}
+nav > * {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+header {
+  background-color: burlywood;
+  padding: 5px;
+}
+main {
+  background-color: lightsalmon;
+  padding: 5px;
+}
+h1,
+h2 {
+  margin-top: 0px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: coral;
+  padding: 5px;
+}
+footer > p {
+  margin-top: 0px;
+}
