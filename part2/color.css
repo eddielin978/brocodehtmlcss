@@ -1,0 +1,49 @@
+.grayBg {
+  background-color: hsl(0, 0%, 84%);
+}
+.cyanBg {
+  background-color: hsl(180, 100%, 94%);
+}
+.blueBg {
+  background-color: hsl(195, 53%, 79%);
+}
+.purpleBg {
+  background-color: hsl(300, 100%, 90%);
+}
+.redBg {
+  background-color: hsl(0, 79%, 82%);
+}
+.pRed {
+  color: hsl(0, 100%, 60%);
+}
+.pOrange {
+  color: hsl(40, 100%, 40%);
+}
+.pYellow {
+  color: hsl(60, 100%, 50%);
+}
+.pGreen {
+  color: hsl(150, 100%, 50%);
+}
+hr {
+  height: 2px;
+  background-color: black;
+  margin-top: 15px;
+}
+.homeButton {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 20px;
+  border-color: black;
+  border-style: solid;
+  color: black;
+  background-color: white;
+}
+.p {
+  font-size: 16px;
+  padding: 5px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}

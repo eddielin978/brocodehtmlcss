@@ -1,0 +1,16 @@
+[target="_blank"] {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.lists {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.lists > * {
+  padding: 10px;
+  background-color: azure;
+  border-style: solid;
+  border-width: 2px;
+  width: 300px;
+}
