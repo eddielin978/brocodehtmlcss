@@ -1,0 +1,108 @@
+hr {
+  border: 1.5px solid black;
+  margin-top: 20px;
+}
+.bg {
+  background-color: whitesmoke;
+}
+.home {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  height: 100px;
+}
+.title {
+  text-shadow: 3px 3px 5px;
+}
+.box,
+.button {
+  box-shadow: 3px 3px 8px;
+}
+.button {
+  height: auto;
+  border: 2px solid black;
+}
+.box,
+.flower,
+.toggle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flower,
+.toggle {
+  border-radius: 50%;
+}
+.poppy {
+  background-color: darkred;
+  box-shadow:
+    30px 30px 0 0 red,
+    30px 30px 0 2px black,
+    30px -30px 0 0 red,
+    30px -30px 0 2px black,
+    -30px 30px 0 0 red,
+    -30px 30px 0 2px black,
+    -30px -30px 0 0 red,
+    -30px -30px 0 2px black;
+}
+.daisy {
+  background-color: gold;
+  box-shadow:
+    30px 30px 0 0 whitesmoke,
+    30px 30px 0 2px black,
+    30px -30px 0 0 whitesmoke,
+    30px -30px 0 2px black,
+    -30px 30px 0 0 whitesmoke,
+    -30px 30px 0 2px black,
+    -30px -30px 0 0 whitesmoke,
+    -30px -30px 0 2px black;
+}
+.night {
+  background-color: black;
+  box-shadow:
+    inset 30px 30px 0 2px hsl(39, 100%, 70%),
+    0 0 5px 5px black;
+}
+.day {
+  background-color: gold;
+  box-shadow: 0 0 5px 5px gold;
+}
+.box,
+.flower,
+.toggle,
+.button {
+  transition: transform 0.25s ease;
+}
+.boxHover {
+  transform: translate(2px, -4px) scale(1.02);
+  box-shadow: 4px 5px 5px black;
+}
+.buttonHover {
+  transform: translate(1px, -2px) scale(1.02);
+  box-shadow: 3px 4px 8px black;
+}
+.switchHover {
+  transform: translate(2px, -4px) scale(1.02);
+}
+.clickedBox {
+  box-shadow: 3px 3px 5px;
+  transform: translate(-2px, 3px) scale(0.97);
+}
+.clickedButton {
+  box-shadow: 2px 2px 5px;
+  transform: translate(-1px, 2px);
+}
+.clickedSwitch {
+  transform: translate(-2px, 3px) scale(0.97);
+}
