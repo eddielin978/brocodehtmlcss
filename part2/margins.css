@@ -1,0 +1,43 @@
+html {
+  background-color: azure;
+}
+hr {
+  border: 1.5px solid black;
+  margin-top: 15px;
+}
+.home {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18vh;
+  height: 18vh;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: lightgray;
+  font-size: 20px;
+}
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.number {
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: 600;
+}
