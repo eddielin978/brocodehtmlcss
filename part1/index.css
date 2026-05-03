@@ -5,12 +5,14 @@
 .lists {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
 }
 .lists > * {
   padding: 10px;
   background-color: azure;
-  border-style: solid;
-  border-width: 2px;
+  border: 2px solid black;
   width: 300px;
+}
+ol {
+  padding: 0 0 0 20px;
 }
