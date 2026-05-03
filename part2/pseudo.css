@@ -1,0 +1,60 @@
+html {
+  background-color: hsl(300, 100%, 95%);
+}
+.home {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+hr {
+  border: 1.5px solid black;
+  margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+  background-color: lightgray;
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+li {
+  padding: 5px;
+  border-radius: 5px;
+}
+.list1 li:hover {
+  background-color: hsl(50, 100%, 90%);
+}
+.list2 li:nth-child(odd) {
+  background-color: hsl(50, 100%, 90%);
+}
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.hover {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hoverMe {
+  padding: 5px;
+  background-color: hsl(250, 100%, 90%);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.boo {
+  padding: 5px;
+  background-color: hsl(0, 100%, 80%);
+  max-width: fit-content;
+  border: 2px solid green;
+  border-radius: 5px;
+  display: none;
+}
+.hovered {
+  display: inline-block;
+}
